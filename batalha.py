@@ -35,7 +35,7 @@ class Arqueiro(Personagem):
         print(f"{self.nome} usa Chuva de Flechas e Causa {dano_especial} de Dano a Todos os Inimigos!")
 
 def importar_personagens(caminho):
-    with open("personagens.json", "r") as file:
+    with open("caminho.json", "r") as file:
         percs = json.load(file)
 
     personagens = []
